@@ -1,0 +1,63 @@
+table.data-table tr td {
+  background-color: white;
+}
+
+table.data-table tr.shaded td {
+  background-color: #def4f9;
+}
+
+td.heading {
+  vertical-align: top;
+}
+
+td.heading h3 {
+  font-size: 1.3em;
+}
+
+tr.row:first-child {
+  border-top: solid 1px #cfcfcf;
+}
+
+@media screen and (max-width: 480px) {
+  tr.row {
+    display: block;
+    position: relative;
+  }
+
+  tr.row:nth-child(even) {
+    background-color: transparent;
+  }
+
+  td.heading {
+    display: block;
+    border-bottom: none;
+    padding-top: 1em;
+  }
+
+  .heading h3 {
+    margin-bottom: 0;
+  }
+
+  td.body {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+    vertical-align: top;
+  }
+
+  .body p {
+    margin-bottom: 0;
+    width: 75%;
+  }
+
+  .action {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    border-bottom: none;
+  }
+
+  .data-table .actions {
+    margin-bottom: 1em;
+  }
+}

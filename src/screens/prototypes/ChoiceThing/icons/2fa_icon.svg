@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="129px" height="111px" viewBox="0 0 129 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone White</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4.94474172" y="16.6435675" width="42.4363778" height="76.6510925"></rect>
+        <rect id="path-2" x="24.5052596" y="98.7600988" width="3.51426253" height="3.57615132" rx="1.75713127"></rect>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="3.51426253" height="3.57615132" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2FA_ICON" transform="translate(-4.000000, -3.000000)">
+            <g id="iPhone-White" transform="translate(73.958300, 64.872330) rotate(10.000000) translate(-73.958300, -64.872330) translate(9.458300, 10.372330)">
+                <rect id="Volume-Down" fill="#D6D6D6" x="0.900024466" y="35.0641205" width="1.19352312" height="3.71110043" rx="0.596761562"></rect>
+                <rect id="Volume-Up" fill="#D6D6D6" x="0.900024466" y="26.1574795" width="1.19352312" height="3.71110043" rx="0.596761562"></rect>
+                <rect id="Silent" fill="#D6D6D6" x="0.833717626" y="16.0362965" width="1.39244365" height="4.72321873" rx="0.696221823"></rect>
+                <rect id="On/Off" fill="#D6D6D6" x="34.716513" y="0.719572912" width="8.22204819" height="1.0121183" rx="0.506059149"></rect>
+                <rect id="Frame" fill="#000000" x="1.43047919" y="1.25936934" width="49.6638233" height="107.014641" rx="11"></rect>
+                <rect id="BG-screen" fill="#161616" x="4.34798016" y="15.8338728" width="43.6299009" height="77.8656344" rx="1"></rect>
+                <g id="Screen">
+                    <use fill="#444444" xlink:href="#path-1"></use>
+                    <use fill="#35445A" xlink:href="#path-1"></use>
+                </g>
+                <ellipse id="Home-Button" fill="#D6D6D6" cx="26.2955443" cy="100.581912" rx="4.50886514" ry="4.58826962"></ellipse>
+                <use id="Inner-Button" stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="12" xlink:href="#path-2"></use>
+                <rect id="Speaker" fill="#444444" x="21.7203723" y="9.42379028" width="9.15034396" height="2.1591857" rx="1.07959285"></rect>
+                <ellipse id="Front-Camer" fill="#444444" cx="26.2292374" cy="6.45490994" rx="0.994602604" ry="1.0121183"></ellipse>
+                <g id="Group-2" transform="translate(76.085643, 50.009321) rotate(-10.000000) translate(-76.085643, -50.009321) translate(27.085643, 27.009321)"></g>
+                <rect id="Rectangle-3" fill="#5AB2E9" transform="translate(74.237261, 51.056593) rotate(-10.000000) translate(-74.237261, -51.056593) " x="25.6520293" y="28.4393295" width="97.1704642" height="45.2345264" rx="22.6172632"></rect>
+                <ellipse id="Oval" fill="#5AB2E8" transform="translate(30.861541, 67.941414) rotate(-10.000000) translate(-30.861541, -67.941414) " cx="30.8615405" cy="67.9414137" rx="8.79560236" ry="8.79560236"></ellipse>
+                <ellipse id="Oval" fill="#5AB2E8" transform="translate(20.053998, 77.321244) rotate(-10.000000) translate(-20.053998, -77.321244) " cx="20.0539979" cy="77.3212439" rx="5.02605849" ry="5.02605849"></ellipse>
+                <circle id="Oval" fill="#FFFFFF" cx="56.6096544" cy="53.9982993" r="5.86373491"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="75.5835097" cy="50.6526967" r="5.86373491"></circle>
+                <ellipse id="Oval" fill="#FFFFFF" cx="96.2072654" cy="47.0161721" rx="5.86373491" ry="5.86373491"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+.option-panel:not(.option-panel--unstyled) {
+  cursor: default;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.option-panel:not(.option-panel--unstyled) {
+  border: solid 2px #cfcfcf;
+}
+
+.option-panel > a {
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
+}
+
+.option-panel p {
+  padding: 0 1em;
+}
+
+.option-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.option-panel:last-child {
+  margin-bottom: 0;
+}
+
+.option-panel .option-panel--blurb {
+  float: left;
+  width: 70%;
+}
+
+.option-panel .option-panel--diagram {
+  margin: 1em 1em 0 0;
+  width: 100px;
+  float: right;
+}
+
+.option-panel--selected:not(.option-panel--unstyled) {
+  background-color: #def4f9;
+  border: solid 2px #cfcfcf;
+}
+
+.option-panel input[disabled][type='checkbox'] + label {
+  color: #bbbbbb;
+}
+
+.option-panel input[disabled][type='checkbox'] + label::after {
+  background-color: #bbbbbb;
+}
+
+.option-panel input[disabled][type='checkbox'] + label::before {
+  border-color: #bbbbbb;
+}

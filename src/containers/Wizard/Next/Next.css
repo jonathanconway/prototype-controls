@@ -1,0 +1,19 @@
+.next:after {
+  content: '→';
+  padding-left: 0.5em;
+  vertical-align: middle; }
+
+button.next:after,
+.next.button:after {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.8em; }
+
+a.next:not(.button) {
+  margin-right: 1em;
+  margin-bottom: 1em; }
+  a.next:not(.button):after {
+    position: absolute;
+    margin-right: 1.5em;
+    font-size: 0.6em;
+    line-height: 2.8em; }
