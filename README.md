@@ -19,4 +19,4 @@ yarn install
 
 ### Activating controls
 
-Press <kbd>Ctrl</kbd> + <kdb>=</kdb>.
+Press <kbd>Ctrl</kbd> + <kbd>=</kbd>.
