@@ -9,6 +9,7 @@ class Router extends Component {
     return (
       <HashRouter>
         <div>
+          <span>{this.props.loggedIn}</span>
           <Route
             exact
             path="/"
@@ -17,7 +18,7 @@ class Router extends Component {
             path="/:prototype"
             render={(matchProps) => {
               const Prototype = prototypes[matchProps.match.params.prototype];
-              return <Prototype />
+              return <Prototype {...this.props} />
             }} />
 
           { this.props.children }

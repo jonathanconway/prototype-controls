@@ -38,16 +38,27 @@ class ResearchToolbar extends Component {
     window.location.hash = value === '(home)' ? '' : value;
   }
 
+  onLogIn(e) {
+    this.props.onLogIn();
+  }
+
+  onLogOut(e) {
+    this.props.onLogOut();
+  }
+
   render() {
     return (this.state.show &&
       <div styleName="research-toolbar">
+        <span styleName="field">
+          { this.props.loggedIn || <button onClick={this.onLogIn.bind(this)}>Log In</button> }
+          { this.props.loggedIn && <button onClick={this.onLogOut.bind(this)}>Log Out</button> }
+        </span>
         <span styleName="field">
           <label
             htmlFor="page">Prototype:</label>
           <select
             id="page"
-            onChange={this.onChangePage}
-            value={window.location.hash.replace('#/', '').split('/')[0]}>
+            onChange={this.onChangePage}>
             <option key="00" value="#/">(home)</option>
             {
               Object.keys(prototypes).map((name, index) =>

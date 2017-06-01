@@ -1,7 +1,9 @@
-import ChoiceThing from './ChoiceThing';
+import Aqua from './Aqua';
+import Cyan from './Cyan';
 
 const prototypes = {
-  'choicething': ChoiceThing
+  'aqua': Aqua,
+  'cyan': Cyan
 };
 
 export default prototypes;
