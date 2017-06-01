@@ -34,7 +34,6 @@ class Select extends Component {
                   description: <div>
                     <p>Great for infrequent users. Receive and enter a unique SMS code each time you sign in. No password to remember. A personal or work mobile phone number is required.</p>
                     <p><strong>Time to setup:</strong> no setup</p>
-                    <p><Link className="next" to="/choiceofcredential/_2fa">Learn more</Link></p>
                   </div>,
                 },
                 {
@@ -42,7 +41,6 @@ class Select extends Component {
                   description: <div>
                     <p>Great for those who work at one machine. Download a digital certificate to a computer. The certificate will allow a staff member to sign in from their desktop.</p>
                     <p><strong>Time to setup:</strong> 15-20 minutes</p>
-                    <p><Link className="next" to="/choiceofcredential/cert">Learn more</Link></p>
                   </div>
                 }
               ]}
