@@ -6,22 +6,20 @@ import LogIn from './LogIn';
 import Home from './Home';
 
 class Cyan extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <main role="main">
-          <article id="content" className="content-main">
-            { this.props.loggedIn || <LogIn /> }
-            { this.props.loggedIn && <Home /> }
-          </article>
-          <aside className="sidebar">
-            <small></small>
-          </aside>
-        </main>
-      </div>
-    );
-  }
+  render = () => (
+    <div>
+      <Header />
+      <main role="main">
+        <article id="content" className="content-main">
+          { this.props.loggedIn || <LogIn /> }
+          { this.props.loggedIn && <Home /> }
+        </article>
+        <aside className="sidebar">
+          <small></small>
+        </aside>
+      </main>
+    </div>
+  );
 }
 
 export default Cyan;

@@ -2,6 +2,8 @@
 
 Example of prototype controls in use.
 
+![Screencast of prototype controls in action](./docs/screencast.gif)
+
 ## Getting started
 
 ### Installing
