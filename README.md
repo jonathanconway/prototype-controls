@@ -8,7 +8,7 @@ Bootstrapped with [create-react-app-minimal](http://conwy.codes/cram).
 
 ## Getting started
 
-### Usage
+### Using
 
 To activate the controls, simply press <kbd>Ctrl</kbd> + <kbd>=</kbd>. Press the same combination to close them.
 
@@ -52,7 +52,9 @@ class App extends Component {
 
 ## Contributing
 
-## Cloning and installing
+You're welcome to fork and/or contribute pull-requests and issues to the project.
+
+### Cloning and installing
 
 ```bash
 git clone https://github.com/jonathanconway/prototype-controls
@@ -60,13 +62,13 @@ cd prototype-controls
 npm install
 ```
 
-## Running examples
+### Running examples
 
 ```bash
 npm start
 ```
 
-## Running tests
+### Running tests
 
 ```bash
 npm test
