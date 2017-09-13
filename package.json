@@ -1,11 +1,12 @@
 {
   "name": "prototype-controls",
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "Control aspects of your prototype within the prototype itself.",
-  "main": "webpack.config.js",
+  "main": "dist/lib.bundle.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build-lib": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",

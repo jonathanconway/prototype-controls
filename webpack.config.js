@@ -6,8 +6,8 @@ module.exports = {
   },
 
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
   },
 
   // Allows us to do `import foo from 'foo'` rather than `import foo from 'foo.js'`
@@ -35,6 +35,6 @@ module.exports = {
   ],
 
   devServer: {
-    host: '0.0.0.0'
+    host: 'localhost'
   }
 }
