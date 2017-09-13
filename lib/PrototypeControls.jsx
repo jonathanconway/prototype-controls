@@ -14,7 +14,19 @@ export default class PrototypeControls extends React.Component {
 
   toggle = e => (e.ctrlKey && e.keyCode === 187) && this.setState({ show: !(this.state.show) })
 
-  render = () => <div>
-    {(this.state.show === true || this.props.show === true) ? this.props.children : null}
-  </div>
+  render = () => (this.state.show === true || this.props.show === true)
+    ? <div style={{
+        'position': 'fixed',
+        'bottom': '0',
+        'left': '0',
+        'width': '100%',
+        'display': 'inline-block',
+        'padding': '0.5rem',
+
+        'backgroundColor': '#f3f3f3',
+        'borderTop': 'solid 1px #cccccc'
+      }}>
+        {this.props.children}
+      </div>
+    : null
 }
